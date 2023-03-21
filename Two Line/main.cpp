@@ -1,0 +1,10 @@
+#include<graphics.h>
+main()
+{
+	initwindow(500,500);
+	setcolor(1);
+	line(0,0,500,500);
+	setcolor(7);
+	line(500,0,0,500);
+	getch();
+}

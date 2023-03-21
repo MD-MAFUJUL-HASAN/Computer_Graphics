@@ -1,0 +1,19 @@
+#include<graphics.h>
+int main()
+{
+	initwindow(500,500);
+	setcolor(RED);
+	circle(250,170,150);
+	setcolor(BLUE);
+	circle(250,170,30);
+	setcolor(GREEN);
+	line(100,170,220,170);
+	line(140,70,230,150);
+	line(140,270,230,190);
+	line(250,20,250,140);
+	line(250,200,250,320);
+	line(270,190,370,260);
+	line(280,170,400,170);
+	line(360,70,270,150);
+	getch();
+}
